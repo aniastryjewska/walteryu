@@ -5,7 +5,7 @@ export function Present () {
       
 <div>
 
-<div className="container d-flex justify-content-center align-items-center">
+<div className="container d-flex align-items-center">
 <div className="col-sm-9">
 <div className="card m-4">
 <img src="IMG_0694.jpg" className="card-img-top" alt="sandstone labyrinth in the making"/>

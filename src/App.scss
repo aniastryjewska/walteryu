@@ -1,11 +1,16 @@
 
-
 .App {
   color: #444444;
 }
 
 .padding-left {
   margin-left: 50px;
+}
+
+.modal-painting-image {
+  max-width: 90%;
+  max-height: 80vh;
+  padding-bottom: 10%;
 }
 
 .homepage-menu {
@@ -32,18 +37,21 @@ color: #444444;
 .navbar {
   max-height: 100vh;
   align-items: stretch;
+}
 
+.btn-painting {
+  width: 30%;
+  min-width: 400px;
 }
 
 .navbar-item {
-font-size: 2rem;
 text-decoration: none;
 color: #444444;
 padding-top: 2.5rem;
 }
 
 .navbar-email {
-font-size: 1rem;
+font-size: 0.8rem;
 }
 
 
@@ -159,19 +167,9 @@ li {
   font-size: 1.7rem;
 }
 
-@media only screen and (max-width: 1500px) {
-  .homepage-menu {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .nav-bar {
-    font-size: 1rem;
-    text-decoration: none;
-    color: #767676;
+@media only screen and (max-width: 576px) {
+  .nav {
+    display: none;
   }
 
   

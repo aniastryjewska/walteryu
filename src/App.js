@@ -1,10 +1,10 @@
 import './App.scss';
-import { Home } from './Home'
 import { Works } from './Works'
 import { Words } from './Words'
 import { Present } from './Present'
 import { Past } from './Past'
 import { NavBar } from './NavBar'
+import { NavBarMobile } from './NavBarMobile'
 import { SucheInDerNachtDE } from './stories/DE/sucheInDerNachtDE'
 import { Paintings } from './works/Paintings'
 import { Drawings} from './works/Drawings'
@@ -20,14 +20,15 @@ function App() {
   return (
     <Router>
     <div className="container-fluid">
-    <div className="row app-row">
-    <div className="col-2 nav">
+    <NavBarMobile/>
+    <div className="row">
+    <div className="col-2 nav m-1">
     <NavBar/>
     </div>
-    <div className="col-9 mt-5">
+    <div className="col mt-5">
 <Switch>
   <Route exact path="/">
-       <Home />
+       <Works />
   </Route>
   <Route exact path="/works">
       <Works />

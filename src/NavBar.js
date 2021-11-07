@@ -2,10 +2,8 @@ import React from 'react'
 
 export function NavBar () {
     return (
-      
-<nav className="navbar d-flex flex-column p-5">
-           
-                <div className="navbar-menu navbar-nav">
+            <nav className="navbar d-flex flex-column p-5">
+                <div className="navbar-menu navbar-nav d-none d-md-block">
                 <div className="navbar-works">
                     <h3 className="navbar-item"><a className="navbar-item" href="/works"> works </a></h3>
                         <div id="navbar-works-dropdown">
@@ -19,7 +17,7 @@ export function NavBar () {
                     <h3 className="navbar-item"><a className="navbar-item" href="/present">present</a></h3>
                     <h3 className="navbar-item"><a className="navbar-item" href="/past">past</a></h3>
                 </div> 
-                <a href="mailto:mail@walteryu.de" className="navbar-email">mail@walteryu.de</a>
+                <a href="mailto:mail@walteryu.de" className="navbar-email d-none d-md-block">mail@walteryu.de</a>
             </nav>
 
     );
