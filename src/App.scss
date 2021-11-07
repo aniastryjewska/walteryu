@@ -1,0 +1,194 @@
+
+
+.App {
+  color: #444444;
+}
+
+.padding-left {
+  margin-left: 50px;
+}
+
+.homepage-menu {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-menu-item {
+font-size: 5rem;
+text-decoration: none;
+color: #444444;
+}
+
+.nav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height:100vh;
+}
+
+.navbar {
+  max-height: 100vh;
+  align-items: stretch;
+
+}
+
+.navbar-item {
+font-size: 2rem;
+text-decoration: none;
+color: #444444;
+padding-top: 2.5rem;
+}
+
+.navbar-email {
+font-size: 1rem;
+}
+
+
+.walter-chinese-name {
+  color: #767676;
+  padding-left: 1rem;
+}
+
+.baby-yu-portrait {
+ max-width: 30%;
+}
+
+.card {
+  border: 0px;
+}
+
+.work-image {
+  margin-bottom: 10px;
+}
+
+.scroll {
+  height: 15vh;
+  max-width: 70vw;
+  object-fit: cover;
+}
+
+
+.scroll-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-scroll-image {
+  max-height: 90vh;
+}
+
+.card-img-top {
+  padding: 20px 0px;
+  max-height: 75vh;
+  max-width: 85%;
+}
+
+.homepage-menu-item:hover,
+h4:hover,
+h5:hover,
+a:hover,
+.nav-bar:hover,
+.german-list:hover {
+ color: #48AAAD;
+ text-decoration: none;
+}
+
+#navbar-works-dropdown {
+  display: none;
+
+}
+
+.navbar-works:hover {
+  #navbar-works-dropdown {
+    display: block;
+    padding: 15px;
+  }
+}
+
+
+
+
+.nav-bar {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #767676;
+}
+
+.german-list {
+  color: black;
+}
+
+.chinese-list {
+  color: #767676;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+p {
+font-size: 1.4rem;
+color: #444444;
+}
+
+b  {
+  color: #444444;
+}
+
+.solo-group-category {
+  color: #8b8a8a;
+  margin-top: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+.group-exhibitions {
+  font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #444444;
+}
+li {
+  font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .homepage-menu {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .nav-bar {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #767676;
+  }
+
+  
+}
+@media only screen and (min-width: 800px) {
+  .german-list {
+    color: black;
+    overflow: hidden;
+  white-space: nowrap;
+  }
+
+  .chinese-list {
+    color: #767676;
+    overflow: hidden;
+  white-space: nowrap;
+  }
+  
+}
+
+

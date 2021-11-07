@@ -2,21 +2,15 @@ import React from 'react'
 
 export function Words () {
     return (
-        <div class="p-3">
-        <div class="d-flex">
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/works"> works </a></h4>
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/words">words</a></h4>
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/present">present</a></h4>
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/past">past</a></h4>
-  </div> 
+        <div className="p-3">
 
-<div class="container container-fluid p-4 d-flex">
+<div className="container container-fluid p-4 d-flex">
 <div className="german-list p-4">
-<ul class="list-group list-group border border-white">
+<ul className="list-group list-group border border-white">
  
-  <ul class="list-group list-group border border-white">
-  <li class="list-group-item border border-white"><a className="german-list" href="/de/suche">Suche in der Nacht</a></li>
-  <li class="list-group-item border border-white"><a className="german-list" href="/de/geisterpferd">Das Geisterpferd</a></li>
+  <ul className="list-group list-group border border-white">
+  <li className="list-group-item border border-white"><a className="german-list" href="/de/suche">Suche in der Nacht</a></li>
+  <li className="list-group-item border border-white"><a className="german-list" href="/de/geisterpferd">Das Geisterpferd</a></li>
   <li class="list-group-item border border-white"><a className="german-list" href="/de/suche">Loco Guillermo</a></li>
   <li class="list-group-item border border-white"><a className="german-list" href="/de/geier">Geier und Fledermaus</a></li>
   <li class="list-group-item border border-white"><a className="german-list" href="/de/suche">Insel 1</a></li>
@@ -25,7 +19,7 @@ export function Words () {
 </ul>
 </div>
 <div className="chinese-list p-4 d-none d-lg-block">
-<ul class="list-group list-group-flush border border-white">
+<ul className="list-group list-group-flush border border-white">
  
   <ul class="list-group list-group-flush border border-white">
   <li class="list-group-item border border-white"><a className="chinese-list" href="/zh/suche">夜中搜寻</a></li> 
