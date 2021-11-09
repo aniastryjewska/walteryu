@@ -2,14 +2,6 @@ import React from 'react'
 
 export function GeierUndFledermausDE () {
     return (
-        <div class="p-3">
-        <div class="d-flex">
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/works"> works </a></h4>
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/words">words</a></h4>
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/present">present</a></h4>
-        <h4 class="p-4 nav-bar"><a class="nav-bar" href="/past">past</a></h4>
-  </div> 
-
 
 <div class="container p-4">
   
@@ -121,7 +113,6 @@ und wenn diese acht Tränen vergossen sind, wirst du sterben."
 Ich wusste das, konnte aber die Tränen nicht unter Kontrolle halten.
 </p>
  
-</div>
 </div>
     );
   }
