@@ -17,6 +17,12 @@ export function Home () {
 <Carousel.Item>  
           <img className="d-block w-100" src="3.jpg" />  
 </Carousel.Item>  
+<Carousel.Item>  
+          <img className="d-block w-100" src="walteryu4.png" />  
+</Carousel.Item>  
+<Carousel.Item>  
+          <img className="d-block w-100" src="walteryu2.png" />  
+</Carousel.Item>  
  </Carousel>  
 
  </div>

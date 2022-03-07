@@ -1,12 +1,12 @@
 import React from 'react'
 
-export function NavBar () {
+export function NavBarWorks () {
     return (
             <nav className="navbar d-flex flex-column p-5">
                 <div className="navbar-menu navbar-nav d-none d-md-block">
                 <div className="navbar-works">
                     <h3 className="navbar-item"><a className="navbar-item" href="/works"> works </a></h3>
-                        <div id="navbar-works-dropdown">
+                        <div id="navbar-dropdown-fixed">
                            <a className="navbar-item" href="/works/paintings"><h5>paintings</h5></a>
                             <a className="navbar-item" href="/works/drawings"><h5>drawings</h5></a>
                             <a className="navbar-item" href="/works/scrolls"><h5>scrolls</h5></a>
@@ -18,7 +18,7 @@ export function NavBar () {
                     <h3 className="navbar-item"><a className="navbar-item" href="/past">past</a></h3>
                 </div> 
                 <div className="d-flex stopka">
-                <a href="https://www.instagram.com/lf_walter_yu/" className="navbar-email d-none d-md-block"><img className="inst-icon" src="instagram_logo.png"/></a>
+                <a href="https://www.instagram.com/lf_walter_yu/" className="navbar-email d-none d-md-block"><img className="inst-icon" src="instagram_logo.png" alt="instagram logo"/></a>
                 <a href="mailto:mail@walteryu.de" className="navbar-email d-none d-md-block">mail@walteryu.de</a>
                 </div>
             </nav>
@@ -26,4 +26,4 @@ export function NavBar () {
     );
   }
   
-  export default NavBar;
+  export default NavBarWorks;

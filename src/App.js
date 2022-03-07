@@ -5,6 +5,7 @@ import { Home } from './Home';
 import { Present } from './Present';
 import { Past } from './Past';
 import { NavBar } from './NavBar';
+import { NavBarWorks } from './NavBarWorks';
 import { NavBarMobile } from './NavBarMobile';
 import { SucheInDerNachtDE } from './stories/DE/sucheInDerNachtDE';
 import { Paintings } from './works/Paintings';
@@ -15,7 +16,7 @@ import { SucheInDerNachtZH } from './stories/ZH/sucheInDerNachtZH';
 import { GeierUndFledermausDE } from './stories/DE/GeierUndFledermausDE';
 import { GeisterpferdDE } from './stories/DE/GeisterpferdDE';
 import { GeisterpferdZH } from './stories/ZH/GeisterpferdZH';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -24,10 +25,23 @@ function App() {
     <NavBarMobile/>
     <div className="row">
     <div className="col-2 nav m-1">
-    <NavBar/>
+    <Route exact path="/">
+        <NavBar/>
+    </Route>
+    <Route path="/present">
+        <NavBar/>
+    </Route>
+    <Route path="/past">
+        <NavBar/>
+    </Route>
+    <Route path="/words">
+        <NavBar/>
+    </Route>
+    <Route path="/works">
+        <NavBarWorks/>
+    </Route>
     </div>
     <div className="col mt-5">
-<Switch>
   <Route exact path="/">
        <Home />
   </Route>
@@ -70,7 +84,6 @@ function App() {
   <Route exact path="/works/sculptures">
       <Sculptures />
   </Route>
-</Switch>
     </div>
     </div>
     </div>
