@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react';
 
 export function NavBarMobile () {
+
+    const [show, setMobileNavBar] = useState(false);
+
+
     return (
         <nav class="navbar navbar-light fixed-top d-sm-block d-md-none">
         <div class="container-fluid">
-          <a href="mailto:mail@walteryu.de">mail@walteryu.de</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <a href="https://www.instagram.com/lf_walter_yu/"><img className="inst-icon" src="instagram_logo.png"/></a>
+          {/* <a href="mailto:mail@walteryu.de">mail@walteryu.de</a> */}
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" 
+          onClick={ ()=> {setMobileNavBar(true)}}>
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">

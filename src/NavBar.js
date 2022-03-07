@@ -17,7 +17,10 @@ export function NavBar () {
                     <h3 className="navbar-item"><a className="navbar-item" href="/present">present</a></h3>
                     <h3 className="navbar-item"><a className="navbar-item" href="/past">past</a></h3>
                 </div> 
+                <div className="d-flex stopka">
+                <a href="https://www.instagram.com/lf_walter_yu/" className="navbar-email d-none d-md-block"><img className="inst-icon" src="instagram_logo.png" alt="instagram logo"/></a>
                 <a href="mailto:mail@walteryu.de" className="navbar-email d-none d-md-block">mail@walteryu.de</a>
+                </div>
             </nav>
 
     );

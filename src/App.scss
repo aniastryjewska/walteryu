@@ -39,6 +39,11 @@ color: #444444;
   align-items: stretch;
 }
 
+.stopka {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btn-painting {
   width: 30%;
   min-width: 400px;
@@ -70,6 +75,12 @@ font-size: 0.8rem;
 
 .work-image {
   margin-bottom: 10px;
+}
+
+.inst-icon {
+max-width: 36px;
+padding-right: 6px;
+opacity: 0.6;
 }
 
 .scroll {
@@ -170,8 +181,7 @@ li {
 @media only screen and (max-width: 576px) {
   .nav {
     display: none;
-  }
-
+}
   
 }
 @media only screen and (min-width: 800px) {

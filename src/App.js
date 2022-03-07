@@ -1,19 +1,20 @@
 import './App.scss';
-import { Works } from './Works'
-import { Words } from './Words'
-import { Present } from './Present'
-import { Past } from './Past'
-import { NavBar } from './NavBar'
-import { NavBarMobile } from './NavBarMobile'
-import { SucheInDerNachtDE } from './stories/DE/sucheInDerNachtDE'
-import { Paintings } from './works/Paintings'
-import { Drawings} from './works/Drawings'
-import { Scrolls } from './works/Scrolls'
-import { Sculptures } from './works/Sculptures'
-import { SucheInDerNachtZH } from './stories/ZH/sucheInDerNachtZH'
-import { GeierUndFledermausDE } from './stories/DE/GeierUndFledermausDE'
-import { GeisterpferdDE } from './stories/DE/GeisterpferdDE'
-import { GeisterpferdZH } from './stories/ZH/GeisterpferdZH'
+import { Works } from './Works';
+import { Words } from './Words';
+import { Home } from './Home';
+import { Present } from './Present';
+import { Past } from './Past';
+import { NavBar } from './NavBar';
+import { NavBarMobile } from './NavBarMobile';
+import { SucheInDerNachtDE } from './stories/DE/sucheInDerNachtDE';
+import { Paintings } from './works/Paintings';
+import { Drawings} from './works/Drawings';
+import { Scrolls } from './works/Scrolls';
+import { Sculptures } from './works/Sculptures';
+import { SucheInDerNachtZH } from './stories/ZH/sucheInDerNachtZH';
+import { GeierUndFledermausDE } from './stories/DE/GeierUndFledermausDE';
+import { GeisterpferdDE } from './stories/DE/GeisterpferdDE';
+import { GeisterpferdZH } from './stories/ZH/GeisterpferdZH';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
     <div className="col mt-5">
 <Switch>
   <Route exact path="/">
-       <Works />
+       <Home />
   </Route>
   <Route exact path="/works">
       <Works />
