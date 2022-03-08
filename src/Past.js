@@ -9,7 +9,9 @@ export function Past () {
 
 <div className="container p-4">
 <h3> <span> Walter Yu </span><b className="walter-chinese-name">于朋</b> </h3> 
+<br/>
 <p> born 1989 in Beijing</p>
+<p> lives and works in Berlin</p>
 <img className="baby-yu-portrait" src="baby_yu.jpg" alt="Walter Yu"></img>
 </div>
  

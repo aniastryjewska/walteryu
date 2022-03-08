@@ -21,8 +21,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
+        <NavBarMobile/>
     <div className="container-fluid">
-    <NavBarMobile/>
+
     <div className="row">
     <div className="col-2 nav m-1">
     <Route exact path="/">
